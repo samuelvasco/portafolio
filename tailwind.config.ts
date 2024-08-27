@@ -11,9 +11,6 @@ const config = {
   ],
   prefix: "",
   theme: {
-    screens: {
-      "3xl": "1921px",
-    },
     container: {
       center: true,
       padding: "2rem",
@@ -22,6 +19,9 @@ const config = {
       },
     },
     extend: {
+      screens: {
+        "3xl": "1921px",
+      },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
       },

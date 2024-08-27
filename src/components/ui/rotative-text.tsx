@@ -1,6 +1,6 @@
 "use client";
 
-import { ReactNode, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
 interface RotativeTextProps {
@@ -8,9 +8,10 @@ interface RotativeTextProps {
     id: number;
     content: string;
   }[];
+  className?: string;
 }
 
-export function RotativeText({ options }: RotativeTextProps) {
+export function RotativeText({ options, className }: RotativeTextProps) {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -24,7 +25,7 @@ export function RotativeText({ options }: RotativeTextProps) {
   }, [options]);
 
   return (
-    <div className="px-2 w-64">
+    <div className={className}>
       <AnimatePresence>
         <motion.div
           key={options[index].id}

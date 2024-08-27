@@ -12,7 +12,7 @@ import {
 export function ContactMeSection() {
   return (
     <section>
-      <div className="grid grid-cols-2 p-32 gap-32">
+      <div className="flex flex-col md:grid md:grid-cols-2 p-8 md:p-32 gap-4 md:gap-32">
         <div className="flex flex-col justify-center gap-4">
           <div>
             <h3 className="text-5xl font-bold">Let&apos;s build</h3>
@@ -24,7 +24,7 @@ export function ContactMeSection() {
             collaborate to turn bold ideas into reality.
           </p>
         </div>
-        <div className="flex flex-row w-full items-center justify-center">
+        <div className="flex flex-row w-full md:items-center md:justify-center">
           <div className="flex flex-row gap-4 bg-slate-100 rounded-md drop-shadow p-4 w-fit">
             <a
               href={`mailto:${CONTACT_EMAIL}?subject=${EMAIL_SUBJECT}`}

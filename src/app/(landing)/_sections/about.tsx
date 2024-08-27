@@ -3,7 +3,7 @@ import Image from "next/image";
 export function AboutMeSection() {
   return (
     <section>
-      <div className="grid grid-cols-2 p-32">
+      <div className="flex flex-col items-center md:grid md:grid-cols-2 gap-4 p-8 md:p-32">
         <div>
           <Image
             src="/network.svg"
