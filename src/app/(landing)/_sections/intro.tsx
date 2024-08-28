@@ -17,13 +17,13 @@ const options = [
   {
     id: "sennder",
     name: "Sennder",
-    alt: "sennder-sneakpeak",
+    alt: "Sennder application sneakpeak image",
     src: "/sennder.webp",
   },
   {
     id: "atlas",
     name: "Atlas Real Estate Analytics",
-    alt: "atlas-sneakpeak",
+    alt: "Atlas application sneakpeak image",
     src: "/atlas.png",
   },
 ];
@@ -40,6 +40,7 @@ export function IntroSection() {
         fill
         style={{
           objectFit: "cover",
+          objectPosition: "left",
         }}
       />
       <div className="pt-32 px-8">
@@ -95,11 +96,8 @@ export function IntroSection() {
           <Image
             alt={selectedOption.alt}
             src={selectedOption.src}
-            width={0}
+            width={800}
             height={0}
-            sizes="180vw"
-            style={{ width: "100%", height: "auto" }}
-            layout="intrinsic"
             quality={100}
           />
         </div>

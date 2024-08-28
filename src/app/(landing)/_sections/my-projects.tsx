@@ -3,7 +3,7 @@ import { myProjectsOptions } from "@/constants/copy";
 
 export function MyProjectsSection() {
   return (
-    <section className="bg-black text-white p-8 md:p-32">
+    <section id="my-projects" className="bg-black text-white p-8 md:p-32">
       <div className="flex justify-center mb-16">
         <h2 className="text-4xl font-bold">My Projects</h2>
       </div>

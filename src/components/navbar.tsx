@@ -13,7 +13,7 @@ export function Navbar() {
         </div>
         <div className="flex flex-row gap-4 items-center p-2 bg-white rounded-md">
           <Button variant={"outline"} className="border-none hidden sm:block">
-            Projects
+            <a href="#my-projects">Projects</a>
           </Button>
           <ResumeButton />
         </div>
