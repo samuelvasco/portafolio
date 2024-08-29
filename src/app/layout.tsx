@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Samuel Vasco",
     description:
-      "Experienced software engineer specializing in full stack development with expertise in AWS, TypeScript, Python, React, and Next.js.",
+      "Experienced software engineer specialized in full stack development with expertise in AWS, TypeScript, Python, React, and Next.js.",
     url: "https://samuelvasco.com",
     siteName: "Samuel Vasco",
     type: "website",
