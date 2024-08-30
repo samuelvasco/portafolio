@@ -9,7 +9,7 @@ const experienceOptions = [
     id: "sennder-experience",
     name: "Senior Software Engineer at Sennder",
     date: "Jul 2022 - Jul 2024",
-    description: `At Sennder, I built a public user service that managed over 80,000 users using REST APIs, Kafka, databases, and queues. I also developed micro-frontends that handled thousands of daily visits and improved CI/CD pipelines for AWS deployments with Terraform, cutting deployment time by 20%. I led more than 60 technical interviews for roles in frontend, backend, and system design.`,
+    description: `At Sennder, I built a public user service that managed over 80,000 users using REST APIs, Kafka, databases, and queues. Furthermore, I developed micro-frontends that handled thousands of daily visits and improved CI/CD pipelines for AWS deployments with Terraform, cutting deployment time by 20%. I led more than 60 technical interviews for roles in frontend, backend, and system design.`,
     alt: "Sennder logo",
     src: sennderLogo,
     url: "https://www.sennder.com/en",
@@ -27,7 +27,7 @@ const experienceOptions = [
     id: "eafit-experience",
     name: "Data Analytics Intern at EAFIT University",
     date: "Jan 2018 - Jun 2018",
-    description: `At EAFIT, I managed databases and automated the creation of over 20 reports. I also extracted hundreds of metrics and measurements to support decision-making and monitoring.`,
+    description: `At EAFIT, I managed databases and automated the creation of over 20 reports. Furthermore, I extracted hundreds of metrics and measurements to support decision-making and monitoring.`,
     alt: "Eafit University logo",
     src: eafitLogo,
     url: "https://www.eafit.edu.co/",
@@ -53,7 +53,7 @@ const myProjectsOptions = [
     index: 1,
     title: "User Management Service",
     description: `The carrier user service was designed to manage thousands of
-            transactions, seamlessly integrating with the company&apos;s
+            transactions, seamlessly integrating with the company's
             event-driven architecture to communicate with other microservices.
             It handled user authorization and personal data, ensuring secure and
             efficient operations across the platform.`,

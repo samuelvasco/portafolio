@@ -24,7 +24,7 @@ export function AboutMeSection() {
             </p>
             <p>
               I believe collaboration and teamwork are essential for any
-              project&apos;s success. Working closely with others helps bring
+              project&apos;s success. Working closely with others helps to bring
               out the best ideas and ensures that everyone is on the same page.
               This approach has always helped me deliver better results.
             </p>
