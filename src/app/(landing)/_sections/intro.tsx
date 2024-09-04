@@ -23,11 +23,13 @@ export function IntroSection() {
       <div className="pt-32 px-8">
         <div>
           <h1 className="text-5xl md:text-7xl font-bold text-white">
-            Hi, my name is Sam
+            Hi, I am Sam
+            <br />
+            A passionate
             <br />
             Software Engineer
-            <br />
-            Based in Ottawa
+            {/* <br />
+            Based in Ottawa */}
           </h1>
         </div>
         <div className="max-w-md mt-8">
