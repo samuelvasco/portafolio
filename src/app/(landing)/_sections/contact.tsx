@@ -35,12 +35,12 @@ export function ContactMeSection() {
             <a href={LINKEDIN} target="_blank">
               <Image
                 src={linkedingSvg}
-                alt="linkedin logo"
+                alt="LinkedIn logo"
                 className="w-8 h-8"
               />
             </a>
             <a href={GITHUB} target="_blank">
-              <Image src={githubSvg} alt="github logo" className="w-8 h-8" />
+              <Image src={githubSvg} alt="Github logo" className="w-8 h-8" />
             </a>
           </div>
         </div>

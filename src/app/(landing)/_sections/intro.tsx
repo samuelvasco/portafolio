@@ -1,42 +1,19 @@
 "use client";
 import { ContactButton } from "@/components/composed/contact-button";
 import { ResumeButton } from "@/components/composed/resume-button";
-import { RotativeText } from "@/components/ui/rotative-text";
 import Image from "next/image";
-import { useState } from "react";
-
-const rotativeTextOptions = [
-  { id: 1, content: "experiences" },
-  { id: 2, content: "journeys" },
-  { id: 3, content: "solutions" },
-  { id: 4, content: "integrations" },
-  { id: 5, content: "workflows" },
-];
-
-const options = [
-  {
-    id: "sennder",
-    name: "Sennder",
-    alt: "Sennder application sneakpeak image",
-    src: "/sennder.webp",
-  },
-  {
-    id: "atlas",
-    name: "Atlas Real Estate Analytics",
-    alt: "Atlas application sneakpeak image",
-    src: "/atlas.png",
-  },
-];
+import heroImage from "@/../public/hero.png";
+import { SneakPeeks } from "./sneak-peeks";
 
 export function IntroSection() {
-  const [selectedOption, setSelectedOption] = useState(options[0]);
-
   return (
     <section className="relative">
       <Image
-        alt="hero background image"
-        src={"/hero.png"}
+        alt="Background image of a man looking at a futuristic city"
+        src={heroImage}
         className="-z-10 3xl:rounded-lg"
+        quality={100}
+        priority
         fill
         style={{
           objectFit: "cover",
@@ -71,37 +48,7 @@ export function IntroSection() {
         </div>
       </div>
 
-      <div className="flex flex-col items-center justify-center gap-16 md:gap-8 w-full mt-[64vh] pb-16 px-8">
-        <div className="flex flex-col md:flex-row gap-2 text-5xl font-bold text-white">
-          <h2>I create seamless</h2>
-          <RotativeText
-            options={rotativeTextOptions}
-            className="w-64"
-          ></RotativeText>
-        </div>
-        <div className="flex flex-row gap-4 ">
-          {options.map((option) => (
-            <h3
-              key={option.id}
-              className={`text-lg font-bold cursor-pointer text-white ${
-                option.id === selectedOption.id ? "" : "text-opacity-50"
-              }`}
-              onClick={() => setSelectedOption(option)}
-            >
-              {option.name}
-            </h3>
-          ))}
-        </div>
-        <div>
-          <Image
-            alt={selectedOption.alt}
-            src={selectedOption.src}
-            width={800}
-            height={0}
-            quality={100}
-          />
-        </div>
-      </div>
+      <SneakPeeks />
     </section>
   );
 }

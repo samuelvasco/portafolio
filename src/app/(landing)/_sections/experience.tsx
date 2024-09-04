@@ -27,7 +27,7 @@ export default function ExperienceSection() {
                   <p>{option.date}</p>
                 </div>
                 <div>
-                  <p>{option.description}</p>
+                  <p className="text-slate-300">{option.description}</p>
                 </div>
               </div>
             </a>

@@ -3,6 +3,7 @@ import { ContactMeSection } from "./(landing)/_sections/contact";
 import ExperienceSection from "./(landing)/_sections/experience";
 import { IntroSection } from "./(landing)/_sections/intro";
 import { MyProjectsSection } from "./(landing)/_sections/my-projects";
+import TShapedSection from "./(landing)/_sections/t-shaped";
 
 export default function Page() {
   return (
@@ -11,6 +12,7 @@ export default function Page() {
         <IntroSection />
         <ExperienceSection />
         <AboutMeSection />
+        <TShapedSection />
         <MyProjectsSection />
         <ContactMeSection />
       </div>

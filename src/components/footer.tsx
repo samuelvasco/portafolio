@@ -8,7 +8,11 @@ export function Footer() {
         <p>Made with ❤️ by yours truly </p>
         <p>
           Vectors by&nbsp;
-          <a href="www.freepik.com" target="_blank" className="text-sky-500">
+          <a
+            href="https://www.freepik.com"
+            target="_blank"
+            className="text-sky-500"
+          >
             Freepik
           </a>
           &nbsp;and&nbsp;

@@ -7,7 +7,7 @@ export function PersonalLogo({ dark }: { dark?: boolean }) {
     <div>
       <Image
         src={personalLogo}
-        alt="Personal logo"
+        alt="Samuel Vasco's personal logo"
         width={32}
         quality={100}
         className={dark ? "invert" : ""}

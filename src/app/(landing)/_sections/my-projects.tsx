@@ -23,7 +23,7 @@ export function MyProjectsSection() {
           <div className="flex flex-col gap-8 ">
             <h3 className="text-4xl font-bold">{option.index + 1}</h3>
             <h4 className="text-3xl font-bold">{option.title}</h4>
-            <p>{option.description}</p>
+            <p className="text-slate-300">{option.description}</p>
           </div>
         </div>
       ))}

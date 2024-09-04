@@ -7,14 +7,14 @@ export function AboutMeSection() {
         <div>
           <Image
             src="/network.svg"
-            alt="network-picture"
+            alt="Network of lines and dots"
             width={500}
             height={500}
           />
         </div>
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-4">
           <h2 className="text-5xl font-bold">About Me</h2>
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 text-slate-500">
             <p>
               I am enthusiastic about my work and driven by a love for learning.
               I find great satisfaction in solving problems and using my skills
