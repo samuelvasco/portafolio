@@ -1,6 +1,6 @@
 import sennderLogo from "@/../public/sennder-logo.svg";
 import atlasLogo from "@/../public/atlas-logo.svg";
-import eafitLogo from "@/../public/eafit-logo.svg";
+import uc3mLogo from "@/../public/uc3m-logo.png";
 import fraguaProject from "@/../public/fragua-project.svg";
 import userManagementProject from "@/../public/user-management-project.svg";
 
@@ -24,13 +24,13 @@ const experienceOptions = [
     url: "https://atlas-reanalytics.com/fragua/en/home/",
   },
   {
-    id: "eafit-experience",
-    name: "Data Analytics Intern at EAFIT University",
+    id: "uc3m-experience",
+    name: "Data Analytics Intern at UC3M University",
     date: "Jan 2018 - Jun 2018",
-    description: `At EAFIT, I managed databases and automated the creation of over 20 reports. Furthermore, I extracted hundreds of metrics and measurements to support decision-making and monitoring.`,
-    alt: "Eafit University logo",
-    src: eafitLogo,
-    url: "https://www.eafit.edu.co/",
+    description: `At UC3M, I managed databases and automated the creation of over 20 reports using Python. Furthermore, I extracted hundreds of metrics and measurements to support decision making and monitoring.`,
+    alt: "UC3M University logo",
+    src: uc3mLogo,
+    url: "https://www.uc3m.es/Home",
   },
 ];
 

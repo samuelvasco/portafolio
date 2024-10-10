@@ -28,8 +28,8 @@ export function IntroSection() {
             A passionate
             <br />
             Software Engineer
-            {/* <br />
-            Based in Ottawa */}
+            <br />
+            Based in Ottawa
           </h1>
         </div>
         <div className="max-w-md mt-8">
