@@ -29,7 +29,7 @@ export function IntroSection() {
             <br />
             Software Engineer
             <br />
-            Based in Canada
+            Based in Ottawa
           </h1>
         </div>
         <div className="max-w-md mt-8">

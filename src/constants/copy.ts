@@ -8,7 +8,7 @@ const experienceOptions = [
   {
     id: "sennder-experience",
     name: "Senior Software Engineer at Sennder",
-    date: "Jul 2022 - Sep 2024",
+    date: "Jul 2022 - Dec 2024",
     description: `At Sennder, I built a public user service that managed over 80,000 users using REST APIs, Kafka, databases, and queues. Furthermore, I developed micro-frontends that handled thousands of daily visits and improved CI/CD pipelines for AWS deployments with Terraform, cutting deployment time by 20%. I led more than 60 technical interviews for roles in frontend, backend, and system design.`,
     alt: "Sennder logo",
     src: sennderLogo,
