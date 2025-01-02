@@ -25,8 +25,8 @@ const experienceOptions = [
   },
   {
     id: "uc3m-experience",
-    name: "Data Analytics Intern at UC3M University",
-    date: "Jan 2018 - Jun 2018",
+    name: "Data Analytics and Database Management Intern at UC3M University",
+    date: "Jan 2018 - Dec 2019",
     description: `At UC3M, I managed databases and automated the creation of over 20 reports using Python. Furthermore, I extracted hundreds of metrics and measurements to support decision making and monitoring.`,
     alt: "UC3M University logo",
     src: uc3mLogo,
