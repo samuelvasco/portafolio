@@ -27,7 +27,7 @@ export function IntroSection() {
             <br />
             A passionate
             <br />
-            Software Engineer
+            Software Developer
             <br />
             Based in Ottawa
           </h1>
@@ -35,7 +35,7 @@ export function IntroSection() {
         <div className="max-w-md mt-8">
           <div className="border-b border-white mb-4"></div>
           <div className="text-white text-xl">
-            I am the kind of engineer who makes collaboration a pleasure,
+            I am the kind of developer who makes collaboration a pleasure,
             inspiring teams to build outstanding products. With a keen eye for
             quality, I approach every project with the client&apos;s perspective
             in mind, balancing the business goals while prioritizing security,
