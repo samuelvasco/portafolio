@@ -24,7 +24,7 @@ export function Footer() {
             Lottiefiles
           </a>
         </p>
-        <p>Copyright © 2024</p>
+        <p>Copyright © 2025</p>
       </footer>
     </>
   );
