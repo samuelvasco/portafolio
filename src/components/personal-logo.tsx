@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import personalLogo from "@/../public/personal-logo.svg";
 
 export function PersonalLogo({ dark }: { dark?: boolean }) {

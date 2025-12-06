@@ -1,4 +1,3 @@
-import React from "react";
 import { Button, ButtonProps } from "../ui/button";
 import { CONTACT_EMAIL, EMAIL_SUBJECT } from "@/constants/contact-info";
 import { cn } from "@/lib/utils";

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import tShapedImage from "@/../public/t-shaped.png";
 
 export default function TShapedSection() {
